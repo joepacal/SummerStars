@@ -47,7 +47,7 @@ h2,h3,h4,h5,h6 {
 
   background-image: url("https://raw.githubusercontent.com/joepacal/kistorm-summerStars/master/assets/bg-blob.svg");
   background-size: 100%, 100%;
-  bacgkround-repeat: none;
+  bacgkround-repeat: no-repeat;
 
   border-radius: 0.5rem;
 
