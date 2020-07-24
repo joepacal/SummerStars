@@ -1,13 +1,13 @@
-.dsia {padding-top:0em;}
-.dsia .center{margin:auto; width:80%; font-family:Tahoma; font-size:2em} 
-.dsia .bullets {padding-bottom:1.2em;}
-.dsia .title{padding-top:0em;margin-top:0em;}
-.dsia .tasks {width: 85%;margin:auto;}
-.dsia .task {padding-left: 1%;padding-right: 1%;padding-bottom:3em;}
-.dsia .grow img{transition: all .2s ease-in-out;}
-.dsia .grow img:hover{transform: scale(1.1);}
-.dsia .col-xs-12 img{max-width: 30%;padding-bottom:10px;}
-.dsia .welcome-header {max-width: 5em; padding-top: 0.5em;}
+.sums {padding-top:0em;}
+.sums .center{margin:auto; width:80%; font-family:'Chelsea Market'; font-size:2em;} 
+.sums .bullets {padding-bottom:1.2em;}
+.sums .title{padding-top:0em;margin-top:0em;}
+.sums .tasks {width: 85%;margin:auto;}
+.sums .task {padding-left: 1%;padding-right: 1%;padding-bottom:3em;}
+.sums .grow img{transition: all .2s ease-in-out;}
+.sums .grow img:hover{transform: scale(1.1);}
+.sums .col-xs-12 img{max-width: 30%;padding-bottom:10px;}
+.sums .welcome-header {max-width: 5em; padding-top: 0.5em;}
 
 .slack {max-width: 8em; border: .15em solid #10629B; border-radius:.8em; transition: all .2s ease-in-out;}
 .slack:hover {transform: scale(1.1);}
@@ -25,11 +25,9 @@ h2,h3,h4,h5,h6 {
   margin-bottom: 1rem;
 }
 
-.dsia.intro {
+.sums.intro {
   
-  background-color: #DAE3ED;
-  background: linear-gradient(180deg, rgba(104, 132, 165, 0.55) 0%, rgba(71, 121, 174, 0.04) 82.77%);
-  border-top: solid 20px #2E5586;
+  background-color: #0d0d0d;
 
   border-radius: 0.5rem;
   padding: 2rem 1rem 1rem 1rem;
@@ -37,7 +35,7 @@ h2,h3,h4,h5,h6 {
 }
 
 
-.dsia.header {
+.sums.header {
 
   display: flex;
   flex-direction: row;
@@ -45,9 +43,11 @@ h2,h3,h4,h5,h6 {
   justify-content: space-between;
   align-items: center;
 
+  font-family:'Chelsea Market'; font-size:2em;
+
   background: #020C18;
-  background-image: url("https://joepacal.github.io/kistorm-dsia/assets/img-digitalAfrica.png");
-  background: url("https://joepacal.github.io/kistorm-dsia/assets/img-digitalAfrica.png") no-repeat 90% 50%, linear-gradient(257.6deg, #020C18 7.79%, #061D35 24.39%, #375C83 53.07%, #4779AE 80.22%);
+  background-image: url("https://joepacal.github.io/kistorm-sums/assets/img-sums.png");
+  background: url("../assets/bg-blob.svg") no-repeat;
   background-size: 212px, cover;
 
   border-radius: 0.5rem;
@@ -64,7 +64,7 @@ h2,h3,h4,h5,h6 {
 
 }
 
-.dsia.title {
+.sums.title {
 
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ h2,h3,h4,h5,h6 {
 
 }
 
-.dsia.logo {
+.sums.logo {
 
   width: 64px;
   height: 40px;
@@ -89,7 +89,7 @@ h2,h3,h4,h5,h6 {
 
 }
 
-.dsia.video {
+.sums.video {
 
   padding: 2rem 1rem; 
 
@@ -110,7 +110,7 @@ h2,h3,h4,h5,h6 {
   height: 100%;
 }
 
-.dsia.list {
+.sums.list {
 
   display: inline-block;
   padding: 1rem 2rem 1rem 1.5rem;
@@ -132,7 +132,7 @@ h2,h3,h4,h5,h6 {
 
 }
 
-.dsia.list:hover {
+.sums.list:hover {
 
   background-color: #fafafa;
 
@@ -145,7 +145,7 @@ h2,h3,h4,h5,h6 {
 }
 
 
-.dsia.row {
+.sums.row {
 
   display: block;
   width: auto;
