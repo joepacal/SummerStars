@@ -29,7 +29,7 @@ h2,h3,h4,h5,h6 {
   
   
   background-image: url("https://raw.githubusercontent.com/joepacal/kistorm-summerStars/master/assets/bg-blob.svg");
-  bacgkround-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%, 100%;
 
   font-family:'Chelsea Market';
@@ -51,7 +51,7 @@ h2,h3,h4,h5,h6 {
   font-family:'Chelsea Market'; font-size:2em;
 
   background-image: url("https://raw.githubusercontent.com/joepacal/kistorm-summerStars/master/assets/bg-blob.svg");
-  bacgkround-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%, 100%;
 
   
